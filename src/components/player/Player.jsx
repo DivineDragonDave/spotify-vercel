@@ -119,7 +119,7 @@ const Player = ({ spotifyApi }) => {
 							player={localPlayer}
 						/>
 					) : (
-						<Box>ples transfer playback</Box>
+						<Box>Please transfer playback</Box>
 					)}
 				</Grid>
 				<Grid
