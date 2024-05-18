@@ -7,7 +7,7 @@ const NavPlaylist = ({ name, id, loading }) => {
 		<NavLink
 			className="playlist__navlink"
 			activeClassName="active"
-			to={loading ? '' : `playlist/${id}`}
+			to={`playlist/${id}`}
 			style={{ textDecoration: 'none' }}
 		>
 			<Box
