@@ -10,7 +10,8 @@ const Home = () => {
 				justifyContent: 'center',
 				alignItems: 'center',
 				flexDirection: 'column',
-				gap: 5
+				gap: 5,
+				marginTop: -100
 			}}
 		>
 			<img src="/DR.ico" alt="DR" style={{ maxWidth: '30%', maxHeight: '30%' }} />
