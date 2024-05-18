@@ -21,6 +21,12 @@ const SideNav = ({ spotifyApi, token }) => {
 	}, [spotifyApi, token]);
 
 	const renderPlaylists = () => {
+		if (loading) {
+			return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20].map((_, i) => (
+				<NavPlaylist key={i} loading={loading} />
+			));
+		}
+
 		return playlists.map((playlist, i) => (
 			<NavPlaylist name={playlist.name} id={playlist.id} loading={loading} key={i} />
 		));
