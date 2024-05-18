@@ -13,6 +13,7 @@ const Home = () => {
 				gap: 5
 			}}
 		>
+			<img src="/DR.ico" alt="DR" style={{ maxWidth: '30%', maxHeight: '30%' }} />
 			<img src="/IMG_5412.jpg" alt="David Ribbfors" style={{ maxWidth: '50%', maxHeight: '50%' }} />
 			<Button size="large" variant="contained" href="tel:0704450115">
 				Ring mig
